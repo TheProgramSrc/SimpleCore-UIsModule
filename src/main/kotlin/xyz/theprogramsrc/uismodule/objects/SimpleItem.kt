@@ -30,6 +30,13 @@ fun String.bukkitColor(vararg args: Any): String = ChatColor.translateAlternateC
 fun String.bukkitStripColor(): String = ChatColor.stripColor(this) ?: this
 
 /**
+ * Gets the name of this [ItemStack]
+ * @return the name of the item
+ */
+val ItemStack.name: String
+    get() = this.itemMeta?.displayName ?: this.type.name
+
+/**
  * Sets the name of this [ItemStack]
  * @param name the name of the item
  * @return this [ItemStack]
@@ -39,6 +46,13 @@ fun ItemStack.setName(name: String): ItemStack = this.apply {
         setDisplayName(name.bukkitColor())
     }
 }
+
+/**
+ * Gets the lore of this [ItemStack]
+ * @return the lore of the item
+ */
+val ItemStack.lore: List<String>
+    get() = this.itemMeta?.lore ?: emptyList()
 
 /**
  * Sets the lore of this [ItemStack]
@@ -94,6 +108,13 @@ fun ItemStack.amount(amount: Int): ItemStack = this.apply {
 }
 
 /**
+ * Gets the flags of this [ItemStack]
+ * @return the flags of the item
+ */
+val ItemStack.flags: List<ItemFlag>
+    get() = this.itemMeta?.itemFlags?.toList() ?: emptyList()
+
+/**
  * Toggles the given flags on this [ItemStack]. If the flag is already set, it will be removed.
  * @param flags the flags to toggle
  * @return this [ItemStack]
@@ -131,6 +152,13 @@ fun ItemStack.removeFlags(vararg flags: ItemFlag): ItemStack = this.apply {
         removeItemFlags(*flags)
     }
 }
+
+/**
+ * Gets the enchantments of this [ItemStack]
+ * @return the enchantments of the item
+ */
+val ItemStack.enchantments: Map<Enchantment, Int>
+    get() = this.itemMeta?.enchants ?: mapOf()
 
 /**
  * Toggles the given enchantments on this [ItemStack]. If the enchantment is already set, it will be removed.

@@ -61,7 +61,7 @@ open class Ui(private val title: String, private val slots: Int, private val pla
 
     init {
         task = SpigotTasks.instance.runTaskTimer(0L, 1L){
-            if(!(this.inventory == null || this.player.openInventory.title.bukkitStripColor() != this.title.bukkitStripColor() || this.inventory?.size != this.slots)) {
+            if(!(this.inventory == null || this.player.openInventory.title.bukkitColor().bukkitStripColor() != this.title.bukkitColor().bukkitStripColor() || this.inventory?.size != this.slots)) {
                 if(preventOpening) {
                     task.stop()
                     HandlerList.unregisterAll(this)
@@ -74,14 +74,15 @@ open class Ui(private val title: String, private val slots: Int, private val pla
                 }
                 this.onBuild(model)
                 val entries = model.items
-                IntRange(0, this.slots).forEach { slot ->
+                IntRange(0, this.slots.dec()).forEach { slot ->
                     val entry = entries[slot]
-                    if(entry == null) {
-                        this.inventory?.setItem(slot, null)
-                        this.entries.remove(slot)
-                    } else {
-                        this.inventory?.setItem(slot, entry.item)
-                        this.entries[slot] = entry
+                    this.inventory?.apply {
+                        setItem(slot, entry?.item)
+                        if(entry == null){
+                            this@Ui.entries.remove(slot)
+                        } else {
+                            this@Ui.entries[slot] = entry
+                        }
                     }
                 }
                 this.player.updateInventory()
@@ -98,15 +99,15 @@ open class Ui(private val title: String, private val slots: Int, private val pla
      * @return This [Ui]
      */
     open fun open(): Ui = this.apply {
-        if(player.openInventory == this.inventory) return@apply
         this.preventOpening = false
+        this.task.stop()
         if(inventory == null){
             HandlerList.unregisterAll(this)
             Bukkit.getPluginManager().registerEvents(this, SpigotLoader.instance)
-            this.task.start()
         }
 
         this.inventory = Bukkit.createInventory(null, slots, title.bukkitColor())
+        this.task.start()
         SpigotTasks.instance.runTask {
             Bukkit.getPluginManager().callEvent(UiOpenEvent(this, this.player))
             player.openInventory(inventory ?: throw IllegalStateException("An unknown error occurred while creating the inventory"))
@@ -125,21 +126,34 @@ open class Ui(private val title: String, private val slots: Int, private val pla
         }
     }
 
+    /**
+     * Sets the onBuild variable
+     * @param onBuild executed to build the model
+     * @return This [Ui]
+     */
+    fun onBuild(onBuild: UiModel.() -> Unit): Ui {
+        this.onBuild = onBuild
+        return this
+    }
+
     @EventHandler
     fun onClick(event: InventoryClickEvent){
         if(this.inventory == null || event.whoClicked != this.player) return
         event.isCancelled = true
         if(event.slotType == InventoryType.SlotType.OUTSIDE || event.clickedInventory is PlayerInventory) return
+        println("${event.slot}: ${this.entries[event.slot]?.item?.name}")
         val entry = this.entries[event.slot] ?: return
-        entry.action.invoke(object:UiAction(this.player, ClickType.fromEvent(event), event) {
-            override fun openUi() {
-                this@Ui.open()
-            }
+        SpigotTasks.instance.runTask {
+            entry.action.invoke(object:UiAction(this.player, ClickType.fromEvent(event), event) {
+                override fun openUi() {
+                    this@Ui.open()
+                }
 
-            override fun closeUi() {
-                this@Ui.close()
-            }
-        })
+                override fun closeUi() {
+                    this@Ui.close()
+                }
+            })
+        }
         if(this.closeAfterClick) this.close()
         Bukkit.getPluginManager().callEvent(UiClickEvent(this, this.player, entry))
     }

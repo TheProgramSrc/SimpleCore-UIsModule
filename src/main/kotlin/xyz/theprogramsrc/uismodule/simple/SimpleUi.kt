@@ -15,6 +15,7 @@ import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack
 import org.bukkit.inventory.PlayerInventory
 import xyz.theprogramsrc.simplecoreapi.spigot.SpigotLoader
+import xyz.theprogramsrc.tasksmodule.spigot.SpigotTasks
 import xyz.theprogramsrc.uismodule.objects.ClickType
 import xyz.theprogramsrc.uismodule.objects.UiAction
 import xyz.theprogramsrc.uismodule.objects.UiEntry
@@ -42,24 +43,23 @@ open class SimpleUi(private val title: String, private val slots: Int, private v
      */
     var closeAfterClick = true
 
-    private val actions = mutableMapOf<Int, (UiAction) -> Unit>()
-
     /**
      * Opens the UI for the player
      * @return This [SimpleUi]
      */
     open fun open(): SimpleUi = this.apply {
-        if(player.openInventory == this.inventory) return@apply
         if(inventory == null){
             HandlerList.unregisterAll(this)
             Bukkit.getPluginManager().registerEvents(this, SpigotLoader.instance)
             this.inventory = Bukkit.createInventory(null, slots, title.bukkitColor())
             entries.forEach {
-                inventory?.setItem(it.key, it.value.item)
+                this.inventory?.setItem(it.key, it.value.item)
             }
         }
 
-        player.openInventory(inventory ?: throw IllegalStateException("An unknown error occurred while creating the inventory"))
+        SpigotTasks.instance.runTask {
+            player.openInventory(this.inventory ?: throw IllegalStateException("An unknown error occurred while creating the inventory"))
+        }
     }
 
     /**
@@ -68,8 +68,8 @@ open class SimpleUi(private val title: String, private val slots: Int, private v
      */
     open fun close(): SimpleUi = this.apply {
         HandlerList.unregisterAll(this)
-        this.player.closeInventory()
-        inventory = null
+        SpigotTasks.instance.runTask(this.player::closeInventory)
+        this.inventory = null
     }
 
     @EventHandler
@@ -77,7 +77,7 @@ open class SimpleUi(private val title: String, private val slots: Int, private v
         if(this.inventory == null || event.whoClicked != this.player) return
         event.isCancelled = true
         if(event.slotType == InventoryType.SlotType.OUTSIDE) return
-        if(event.clickedInventory !is PlayerInventory && this.actions.containsKey(event.slot)){
+        if(event.clickedInventory !is PlayerInventory && this.entries.containsKey(event.slot)){
             val action = object:UiAction(this.player, ClickType.fromEvent(event), event) {
 
                 override fun openUi() {
@@ -88,7 +88,9 @@ open class SimpleUi(private val title: String, private val slots: Int, private v
                     this@SimpleUi.close()
                 }
             }
-            this.actions[event.slot]?.invoke(action)
+            SpigotTasks.instance.runTask {
+                this.entries[event.slot]?.action?.invoke(action)
+            }
             if(this.closeAfterClick) this.close()
         }
     }
