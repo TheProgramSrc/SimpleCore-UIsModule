@@ -59,31 +59,6 @@ $dokka.location:xyz.theprogramsrc.uismodule.objects/UiEntry/action/#/PointingToD
 $dokka.location:xyz.theprogramsrc.uismodule.objects/UiEntry/item/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.objects/-ui-entry/item.html
 $dokka.location:xyz.theprogramsrc.uismodule.objects/UiEntry/itemEditor/#kotlin.Function1[org.bukkit.inventory.ItemStack,kotlin.Unit]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.objects/-ui-entry/item-editor.html
 $dokka.location:xyz.theprogramsrc.uismodule.objects/UiEntry/shouldUpdate/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.objects/-ui-entry/should-update.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple////PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/index.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/index.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/Builder/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/-builder.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/Builder/#kotlin.String#kotlin.Int/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/-builder.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/Builder/#kotlin.String/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/-builder.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/build/#org.bukkit.entity.Player#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/build.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/closeAfterClick/#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/close-after-click.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entries/#kotlin.Array[xyz.theprogramsrc.uismodule.objects.UiEntry]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entries.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entries/#kotlin.collections.List[xyz.theprogramsrc.uismodule.objects.UiEntry]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entries.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entries/#kotlin.collections.Map[kotlin.Int,xyz.theprogramsrc.uismodule.objects.UiEntry]#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entries.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entry/#kotlin.Int#org.bukkit.inventory.ItemStack#kotlin.Function1[xyz.theprogramsrc.uismodule.objects.UiAction,kotlin.Unit]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entry.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entry/#kotlin.Int#org.bukkit.inventory.ItemStack/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entry.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/entry/#xyz.theprogramsrc.uismodule.objects.UiEntry/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/entry.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/slots/#kotlin.Int/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/slots.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi.Builder/title/#kotlin.String/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-builder/title.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/index.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/SimpleUi/#kotlin.String#kotlin.Int#kotlin.collections.Map[kotlin.Int,xyz.theprogramsrc.uismodule.objects.UiEntry]#org.bukkit.entity.Player/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/-simple-ui.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/close/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/close.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/closeAfterClick/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/close-after-click.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/inventory/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/inventory.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/onClick/#org.bukkit.event.inventory.InventoryClickEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/on-click.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/onClose/#org.bukkit.event.inventory.InventoryCloseEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/on-close.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/onDrag/#org.bukkit.event.inventory.InventoryDragEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/on-drag.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/onQuit/#org.bukkit.event.player.PlayerQuitEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/on-quit.html
-$dokka.location:xyz.theprogramsrc.uismodule.simple/SimpleUi/open/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.simple/-simple-ui/open.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui.events////PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui.events/index.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiClickEvent///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui.events/-ui-click-event/index.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiClickEvent/UiClickEvent/#xyz.theprogramsrc.uismodule.ui.Ui#org.bukkit.entity.Player#xyz.theprogramsrc.uismodule.objects.UiEntry/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui.events/-ui-click-event/-ui-click-event.html
@@ -100,6 +75,30 @@ $dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiEvent/ui/#/PointingToDec
 $dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiOpenEvent///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui.events/-ui-open-event/index.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiOpenEvent/UiOpenEvent/#xyz.theprogramsrc.uismodule.ui.Ui#org.bukkit.entity.Player/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui.events/-ui-open-event/-ui-open-event.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui////PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/index.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/index.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/Builder/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/-builder.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/Builder/#kotlin.String#kotlin.Int/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/-builder.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/Builder/#kotlin.String/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/-builder.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/build/#org.bukkit.entity.Player#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/build.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/closeAfterClick/#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/close-after-click.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entries/#kotlin.Array[xyz.theprogramsrc.uismodule.objects.UiEntry]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entries.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entries/#kotlin.collections.List[xyz.theprogramsrc.uismodule.objects.UiEntry]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entries.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entries/#kotlin.collections.Map[kotlin.Int,xyz.theprogramsrc.uismodule.objects.UiEntry]#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entries.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entry/#kotlin.Int#org.bukkit.inventory.ItemStack#kotlin.Function1[xyz.theprogramsrc.uismodule.objects.UiAction,kotlin.Unit]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entry.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entry/#kotlin.Int#org.bukkit.inventory.ItemStack/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entry.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/entry/#xyz.theprogramsrc.uismodule.objects.UiEntry/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/entry.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/slots/#kotlin.Int/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/slots.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder/title/#kotlin.String/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-builder/title.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/index.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/SimpleUi/#kotlin.String#kotlin.Int#kotlin.collections.Map[kotlin.Int,xyz.theprogramsrc.uismodule.objects.UiEntry]#org.bukkit.entity.Player/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/-simple-ui.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/close/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/close.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/closeAfterClick/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/close-after-click.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/inventory/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/inventory.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/onClick/#org.bukkit.event.inventory.InventoryClickEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/on-click.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/onClose/#org.bukkit.event.inventory.InventoryCloseEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/on-close.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/onDrag/#org.bukkit.event.inventory.InventoryDragEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/on-drag.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/onQuit/#org.bukkit.event.player.PlayerQuitEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/on-quit.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi/open/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-simple-ui/open.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui/Ui///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-ui/index.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui/Ui/Ui/#kotlin.String#kotlin.Int#org.bukkit.entity.Player#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-ui/-ui.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui/Ui/canCloseUi/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-ui/can-close-ui.html
@@ -126,11 +125,28 @@ $dokka.location:xyz.theprogramsrc.uismodule.ui/UiModel/set/#kotlin.Int#xyz.thepr
 $dokka.location:xyz.theprogramsrc.uismodule.ui/UiModel/size/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-ui-model/size.html
 $dokka.location:xyz.theprogramsrc.uismodule.ui/UiModel/title/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule.ui/-ui-model/title.html
 $dokka.location:xyz.theprogramsrc.uismodule////PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/index.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/index.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/Dialog/#org.bukkit.entity.Player#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Function1[org.bukkit.entity.Player,kotlin.Unit]#kotlin.Function2[org.bukkit.entity.Player,kotlin.String,kotlin.Boolean]/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/-dialog.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/actionbar/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/actionbar.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/canBeClosed/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/can-be-closed.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/close/#kotlin.Boolean/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/close.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/manuallyClosed/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/manually-closed.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/onChat/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/on-chat.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/onClose/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/on-close.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/onInteract/#org.bukkit.event.player.PlayerInteractEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/on-interact.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/onMessageReceived/#org.bukkit.event.player.AsyncPlayerChatEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/on-message-received.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/onMove/#org.bukkit.event.player.PlayerMoveEvent/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/on-move.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/open/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/open.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/player/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/player.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/subtitle/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/subtitle.html
+$dokka.location:xyz.theprogramsrc.uismodule/Dialog/title/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-dialog/title.html
+$dokka.location:xyz.theprogramsrc.uismodule/Main.Companion///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-main/-companion/index.html
+$dokka.location:xyz.theprogramsrc.uismodule/Main.Companion/DIALOG_CLOSED_TRANSLATION/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-main/-companion/-d-i-a-l-o-g_-c-l-o-s-e-d_-t-r-a-n-s-l-a-t-i-o-n.html
+$dokka.location:xyz.theprogramsrc.uismodule/Main.Companion/HOW_TO_CLOSE_DIALOG_TRANSLATION/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-main/-companion/-h-o-w_-t-o_-c-l-o-s-e_-d-i-a-l-o-g_-t-r-a-n-s-l-a-t-i-o-n.html
 $dokka.location:xyz.theprogramsrc.uismodule/Main///PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-main/index.html
 $dokka.location:xyz.theprogramsrc.uismodule/Main/Main/#/PointingToDeclaration/-u-is-module/xyz.theprogramsrc.uismodule/-main/-main.html
 xyz.theprogramsrc.uismodule
 xyz.theprogramsrc.uismodule.objects
-xyz.theprogramsrc.uismodule.simple
 xyz.theprogramsrc.uismodule.ui
 xyz.theprogramsrc.uismodule.ui.events
 
