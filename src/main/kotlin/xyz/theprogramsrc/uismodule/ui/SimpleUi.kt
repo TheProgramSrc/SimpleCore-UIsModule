@@ -1,4 +1,4 @@
-package xyz.theprogramsrc.uismodule.simple
+package xyz.theprogramsrc.uismodule.ui
 
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
