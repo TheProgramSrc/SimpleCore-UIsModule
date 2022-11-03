@@ -35,7 +35,7 @@ dependencies {
     compileOnly 'xyz.theprogramsrc:tasksmodule:0.1.0-SNAPSHOT'
     compileOnly 'xyz.theprogramsrc:translationsmodule:0.1.3-SNAPSHOT'
 
-    implementation 'com.github.cryptomorin:XSeries:9.0.0'
+    implementation 'com.github.cryptomorin:XSeries:9.1.0'
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
 }
