@@ -1,0 +1,12 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:xyz.theprogramsrc.uismodule.objects/ClickType.Companion///PointingToDeclaration/xyz/theprogramsrc/uismodule/objects/ClickType.Companion.html
+$dokka.location:xyz.theprogramsrc.uismodule.objects/UiEntry.Companion///PointingToDeclaration/xyz/theprogramsrc/uismodule/objects/UiEntry.Companion.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui.events/UiEvent.Companion///PointingToDeclaration/xyz/theprogramsrc/uismodule/ui/events/UiEvent.Companion.html
+$dokka.location:xyz.theprogramsrc.uismodule.ui/SimpleUi.Builder///PointingToDeclaration/xyz/theprogramsrc/uismodule/ui/SimpleUi.Builder.html
+$dokka.location:xyz.theprogramsrc.uismodule/Main.Companion///PointingToDeclaration/xyz/theprogramsrc/uismodule/Main.Companion.html
+xyz.theprogramsrc.uismodule
+xyz.theprogramsrc.uismodule.objects
+xyz.theprogramsrc.uismodule.ui
+xyz.theprogramsrc.uismodule.ui.events
+
