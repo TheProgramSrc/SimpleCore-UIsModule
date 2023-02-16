@@ -1,3 +1,10 @@
+## v0.2.0 - New Repos & Updates
+* Added JitPack
+* Added Sonatype
+* Updated dependencies
+* Migrated to kotlin dsl
+* Updated workflows
+
 ## v0.1.1 - Snapshot
 * Added Dialogs
 * Moved `xyz.theprogramsrc.uismodule.simple.SimpleUi` to `xyz.theprogramsrc.uismodule.ui.SimpleUi`
