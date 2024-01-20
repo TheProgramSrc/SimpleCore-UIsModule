@@ -38,7 +38,7 @@ dependencies {
     compileOnly("xyz.theprogramsrc:tasksmodule:0.2.0-SNAPSHOT")
 
     compileOnly("org.spigotmc:spigot-api:1.19.3-R0.1-SNAPSHOT")
-    compileOnly("net.md-5:bungeecord-api:1.19-R0.1-SNAPSHOT")
+    compileOnly("net.md-5:bungeecord-api:1.20-R0.2")
 
     implementation("com.github.cryptomorin:XSeries:9.3.0")
 
