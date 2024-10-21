@@ -42,7 +42,7 @@ dependencies {
 
     implementation("com.github.cryptomorin:XSeries:9.3.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
 }
 
 
